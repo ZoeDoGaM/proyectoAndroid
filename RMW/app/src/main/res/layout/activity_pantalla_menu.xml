@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pantalla_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.joseluis.rmw.pantallaMenu">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Suertes Simples"
+                android:id="@+id/botonSuertesSimples"
+                android:background="#0000FF"
+                android:textColor="#FFFFFF"
+                android:layout_margin="10dp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Porcentaje Filas y Columnas"
+                android:id="@+id/botonPorcentajeFilasColumnas"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/botonSuertesSimples"
+                android:background="#0000FF"
+                android:textColor="#FFFFFF"
+                android:layout_margin="10dp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Frecuencias Generales"
+                android:id="@+id/botonFrecuenciasGenerales"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/botonPorcentajeFilasColumnas"
+                android:background="#0000FF"
+                android:textColor="#FFFFFF"
+                android:layout_margin="10dp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ultimos Numeros Insertados"
+                android:id="@+id/botonUltimosInsertados"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/botonFrecuenciasGenerales"
+                android:background="#0000FF"
+                android:textColor="#FFFFFF"
+                android:layout_margin="10dp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Insertar Numero"
+                android:id="@+id/botonInsertarNumero"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/botonUltimosInsertados"
+                android:background="#0000FF"
+                android:textColor="#FFFFFF"
+                android:layout_margin="10dp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Borrar Ultimo Insertado"
+                android:id="@+id/botonBorrarUltimo"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/botonInsertarNumero"
+                android:background="#0000FF"
+                android:textColor="#FFFFFF"
+                android:layout_margin="10dp"
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

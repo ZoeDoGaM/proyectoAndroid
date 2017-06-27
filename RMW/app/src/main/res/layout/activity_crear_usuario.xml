@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_crear_usuario"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.joseluis.rmw.crearUsuario">
+
+    <TextView
+        android:id="@+id/tvTituloRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crear nueva cuenta"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textColor="#01F454"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Nickname"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/etPedirNickRegistro"
+        android:layout_below="@+id/tvTituloRegistro"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Ciudad"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/etPedirCiudadRegistro"
+        android:layout_below="@id/etPedirNickRegistro"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/botonSave"
+        android:layout_below="@+id/etPedirCiudadRegistro"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:id="@+id/botonDelete"
+        android:layout_below="@+id/botonSave"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:id="@+id/botonUpdate"
+        android:layout_below="@+id/botonDelete"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show"
+        android:id="@+id/botonShow"
+        android:layout_below="@+id/botonUpdate"
+        />
+
+</RelativeLayout>
